@@ -1,0 +1,16 @@
+/home/blake/revature/blake_code/week_1/HelloCSharp/bin/Debug/net5.0/HelloCSharp
+/home/blake/revature/blake_code/week_1/HelloCSharp/bin/Debug/net5.0/HelloCSharp.deps.json
+/home/blake/revature/blake_code/week_1/HelloCSharp/bin/Debug/net5.0/HelloCSharp.runtimeconfig.json
+/home/blake/revature/blake_code/week_1/HelloCSharp/bin/Debug/net5.0/HelloCSharp.runtimeconfig.dev.json
+/home/blake/revature/blake_code/week_1/HelloCSharp/bin/Debug/net5.0/HelloCSharp.dll
+/home/blake/revature/blake_code/week_1/HelloCSharp/bin/Debug/net5.0/ref/HelloCSharp.dll
+/home/blake/revature/blake_code/week_1/HelloCSharp/bin/Debug/net5.0/HelloCSharp.pdb
+/home/blake/revature/blake_code/week_1/HelloCSharp/obj/Debug/net5.0/HelloCSharp.csproj.AssemblyReference.cache
+/home/blake/revature/blake_code/week_1/HelloCSharp/obj/Debug/net5.0/HelloCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/blake/revature/blake_code/week_1/HelloCSharp/obj/Debug/net5.0/HelloCSharp.AssemblyInfoInputs.cache
+/home/blake/revature/blake_code/week_1/HelloCSharp/obj/Debug/net5.0/HelloCSharp.AssemblyInfo.cs
+/home/blake/revature/blake_code/week_1/HelloCSharp/obj/Debug/net5.0/HelloCSharp.csproj.CoreCompileInputs.cache
+/home/blake/revature/blake_code/week_1/HelloCSharp/obj/Debug/net5.0/HelloCSharp.dll
+/home/blake/revature/blake_code/week_1/HelloCSharp/obj/Debug/net5.0/ref/HelloCSharp.dll
+/home/blake/revature/blake_code/week_1/HelloCSharp/obj/Debug/net5.0/HelloCSharp.pdb
+/home/blake/revature/blake_code/week_1/HelloCSharp/obj/Debug/net5.0/HelloCSharp.genruntimeconfig.cache
