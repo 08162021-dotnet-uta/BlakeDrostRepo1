@@ -1,0 +1,14 @@
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/bin/Debug/netcoreapp3.1/Strings
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/bin/Debug/netcoreapp3.1/Strings.deps.json
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/bin/Debug/netcoreapp3.1/Strings.runtimeconfig.json
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/bin/Debug/netcoreapp3.1/Strings.runtimeconfig.dev.json
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/bin/Debug/netcoreapp3.1/Strings.dll
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/bin/Debug/netcoreapp3.1/Strings.pdb
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/obj/Debug/netcoreapp3.1/Strings.csproj.AssemblyReference.cache
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/obj/Debug/netcoreapp3.1/Strings.GeneratedMSBuildEditorConfig.editorconfig
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/obj/Debug/netcoreapp3.1/Strings.AssemblyInfoInputs.cache
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/obj/Debug/netcoreapp3.1/Strings.AssemblyInfo.cs
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/obj/Debug/netcoreapp3.1/Strings.csproj.CoreCompileInputs.cache
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/obj/Debug/netcoreapp3.1/Strings.dll
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/obj/Debug/netcoreapp3.1/Strings.pdb
+/home/blake/revature/blake_code/coding_challenges/1_Strings/Strings/obj/Debug/netcoreapp3.1/Strings.genruntimeconfig.cache
