@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ax/UyZ3e0NrJ3YLUNrCmYVpLVUf/F8Ph6aDVylfpBMPW36+f5oRmgzs6sJdo/BTXkSgat1+qVESsZb1IFpw42w==",
+  "success": true,
+  "projectFilePath": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Client/Project0.StoreApplication.Client.csproj",
+  "expectedPackageFiles": [
+    "/home/blake/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512",
+    "/home/blake/.nuget/packages/serilog.sinks.console/4.0.0/serilog.sinks.console.4.0.0.nupkg.sha512",
+    "/home/blake/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

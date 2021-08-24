@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Project0.StoreApplication.Storage/1.0.0": {
+        "dependencies": {
+          "Project0.StoreApplication.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Project0.StoreApplication.Storage.dll": {}
+        }
+      },
+      "Project0.StoreApplication.Domain/1.0.0": {
+        "runtime": {
+          "Project0.StoreApplication.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project0.StoreApplication.Storage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Project0.StoreApplication.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

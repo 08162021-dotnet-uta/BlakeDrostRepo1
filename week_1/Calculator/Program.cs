@@ -20,18 +20,43 @@ namespace Calculator
   {
     static void Main(string[] args)
     {
+
+      //Boxing example
+      int data = 10;                //Value type variable
+      object data2 = new object();  //Reference type variable
+      data2 = 10;
+
+      PassByValueNoBoxing(data);
+      System.Console.WriteLine(data); //10
+
+      PassByValueWithBoxing(ref data);
+      System.Console.WriteLine(data); //20
+
+
+      //Calculator code
+      /*
       //input stuff
       int input1, input2;
       if(Input(out input1, out input2)){
 
       //compute stuff
-      int result1 = Add(input1, input2);
-      int result2 = Subtract(input1, input2);
-      int result3 = Multiply(input1, input2);
-      int result4 = Divide(input1, input2);
+      var result1 = Add(input1, input2);
+      var result2 = Subtract(input1, input2);
+      var result3 = Multiply(input1, input2);
+      var result4 = Divide(input1, input2);
       //output stuff
       Print(result1,result2,result3,result4);
       }
+      */
+    }
+
+    static void PassByValueNoBoxing(int entry){
+      entry = 20;
+
+    }
+
+    static void PassByValueWithBoxing(ref int entry){
+      entry = 20;
     }
 
     //METHODS
@@ -87,7 +112,7 @@ namespace Calculator
     //   }
       int input1, input2;
 
-      if(int.TryParse(Console.ReadLine(), out input1) && int.TryParse(Console.ReadLine(), out input2)){
+      if(int.TryParse(Console.ReadLine(), out input1) & int.TryParse(Console.ReadLine(), out input2)){
         i1 = input1;
         i2 = input2;
         return true;

@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Testing/Project0.StoreApplication.Testing.csproj": {}
+  },
+  "projects": {
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/Project0.StoreApplication.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/Project0.StoreApplication.Domain.csproj",
+        "projectName": "Project0.StoreApplication.Domain",
+        "projectPath": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/Project0.StoreApplication.Domain.csproj",
+        "packagesPath": "/home/blake/.nuget/packages/",
+        "outputPath": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/blake/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Project0.StoreApplication.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Project0.StoreApplication.Storage.csproj",
+        "projectName": "Project0.StoreApplication.Storage",
+        "projectPath": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Project0.StoreApplication.Storage.csproj",
+        "packagesPath": "/home/blake/.nuget/packages/",
+        "outputPath": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/blake/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/Project0.StoreApplication.Domain.csproj": {
+                "projectPath": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/Project0.StoreApplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Testing/Project0.StoreApplication.Testing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Testing/Project0.StoreApplication.Testing.csproj",
+        "projectName": "Project0.StoreApplication.Testing",
+        "projectPath": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Testing/Project0.StoreApplication.Testing.csproj",
+        "packagesPath": "/home/blake/.nuget/packages/",
+        "outputPath": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Testing/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/blake/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Project0.StoreApplication.Storage.csproj": {
+                "projectPath": "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Project0.StoreApplication.Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

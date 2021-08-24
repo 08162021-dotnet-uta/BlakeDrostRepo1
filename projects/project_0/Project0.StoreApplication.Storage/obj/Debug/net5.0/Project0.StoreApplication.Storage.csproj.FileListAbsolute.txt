@@ -1,0 +1,15 @@
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/bin/Debug/net5.0/Project0.StoreApplication.Storage.deps.json
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/bin/Debug/net5.0/Project0.StoreApplication.Storage.dll
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/bin/Debug/net5.0/ref/Project0.StoreApplication.Storage.dll
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/bin/Debug/net5.0/Project0.StoreApplication.Storage.pdb
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/bin/Debug/net5.0/Project0.StoreApplication.Domain.dll
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/bin/Debug/net5.0/Project0.StoreApplication.Domain.pdb
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/obj/Debug/net5.0/Project0.StoreApplication.Storage.csproj.AssemblyReference.cache
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/obj/Debug/net5.0/Project0.StoreApplication.Storage.GeneratedMSBuildEditorConfig.editorconfig
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/obj/Debug/net5.0/Project0.StoreApplication.Storage.AssemblyInfoInputs.cache
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/obj/Debug/net5.0/Project0.StoreApplication.Storage.AssemblyInfo.cs
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/obj/Debug/net5.0/Project0.StoreApplication.Storage.csproj.CoreCompileInputs.cache
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/obj/Debug/net5.0/Project0.StoreApplication.Storage.csproj.CopyComplete
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/obj/Debug/net5.0/Project0.StoreApplication.Storage.dll
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/obj/Debug/net5.0/ref/Project0.StoreApplication.Storage.dll
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/obj/Debug/net5.0/Project0.StoreApplication.Storage.pdb

@@ -1,0 +1,12 @@
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/obj/Debug/net5.0/Project0.StoreApplication.Domain.csproj.AssemblyReference.cache
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/obj/Debug/net5.0/Project0.StoreApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/obj/Debug/net5.0/Project0.StoreApplication.Domain.AssemblyInfoInputs.cache
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/obj/Debug/net5.0/Project0.StoreApplication.Domain.AssemblyInfo.cs
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/obj/Debug/net5.0/Project0.StoreApplication.Domain.csproj.CoreCompileInputs.cache
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/bin/Debug/net5.0/Project0.StoreApplication.Domain.deps.json
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/bin/Debug/net5.0/Project0.StoreApplication.Domain.dll
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/bin/Debug/net5.0/ref/Project0.StoreApplication.Domain.dll
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/bin/Debug/net5.0/Project0.StoreApplication.Domain.pdb
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/obj/Debug/net5.0/Project0.StoreApplication.Domain.dll
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/obj/Debug/net5.0/ref/Project0.StoreApplication.Domain.dll
+/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/obj/Debug/net5.0/Project0.StoreApplication.Domain.pdb
