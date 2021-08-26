@@ -1,44 +1,59 @@
 using System.Collections.Generic;
+using Project0.StoreApplication.Domain.Interfaces;
 using Project0.StoreApplication.Domain.Models;
+using Project0.StoreApplication.Storage.Adapters;
 
 namespace Project0.StoreApplication.Storage.Repositories
 {
-  public class StoreRepository
+  public class StoreRepository : IRepository<Store>
   {
-    private const string _path = @"~/home/blake/revature/blake_code/data/stores.xml";
-    public List<Store> Stores { get; set; }
+    private const string _path = @"/home/blake/revature/blake_code/data/stores.xml";
 
-    private StoreRepository()
-    {
-      Stores = new List<Store>();
-    }
+    private static readonly FileAdapter _fileAdapter = new FileAdapter();
 
-    public Store GetStore(int index)
+    public StoreRepository()
     {
-      try
+      if (_fileAdapter.ReadFromFile<Store>(_path) == null)
       {
-        return Stores[index];
-      }
-      catch
-      {
-        return null;
+        _fileAdapter.WriteToFile<Store>(_path, new List<Store>(){
+        new Store(){ Location = "Dallas"},
+        new Store(){ Location = "New York"},
+        new Store(){ Location = "Miami"}});
       }
     }
-
-    private static StoreRepository _storeRepository;
-
-    //creating a property
-    public static StoreRepository Instance
+    public bool Insert(List<Store> entry)
     {
-      get
-      {
-        if (_storeRepository == null)
-        {
-          //create an instance of store repository
-          _storeRepository = new StoreRepository();
-        }
-        return _storeRepository;
-      }
+      _fileAdapter.WriteToFile<Store>(_path, entry);
+
+      return true;
     }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
+    public Store Update()
+    {
+      throw new System.NotImplementedException();
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
+    public List<Store> Select()
+    {
+      return _fileAdapter.ReadFromFile<Store>(_path);
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
+    public bool Delete()
+    {
+      throw new System.NotImplementedException();
+    }
+
   }
 }

@@ -1,50 +1,22 @@
 using System.Collections.Generic;
 using Project0.StoreApplication.Domain.Models;
+using Project0.StoreApplication.Storage.Adapters;
 
 namespace Project0.StoreApplication.Storage.Repositories
 {
   public class OrderRepository
   {
 
-    private const string _path = @"~/home/blake/revature/blake_code/data/orders.xml";
+    private const string _path = @"/home/blake/revature/blake_code/data/orders.xml";
+
+    private static readonly FileAdapter _fileAdapter = new FileAdapter();
     public List<Order> Orders { get; set; }
 
-    private OrderRepository()
+    public OrderRepository()
     {
-      Orders = new List<Order>();
-      //Orders.Add(new Order(new Customer(), new Product(), new Store()));
-    }
-
-    public Order GetOrder(int index)
-    {
-      try
+      if (_fileAdapter.ReadFromFile<Order>(_path) == null)
       {
-        return Orders[index];
-      }
-      catch
-      {
-        return null;
-      }
-    }
-
-    public void makeOrder(Customer c, Product p, Store s)
-    {
-      Orders.Add(new Order());
-    }
-
-    private static OrderRepository _orderRepository;
-
-    //creating a property
-    public static OrderRepository Instance
-    {
-      get
-      {
-        if (_orderRepository == null)
-        {
-          //create an instance of store repository
-          _orderRepository = new OrderRepository();
-        }
-        return _orderRepository;
+        _fileAdapter.WriteToFile<Order>(_path, new List<Order>());
       }
     }
   }

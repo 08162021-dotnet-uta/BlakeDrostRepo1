@@ -12,7 +12,7 @@ namespace Project0.StoreApplication.Domain.Interfaces
     /// 
     /// </summary>
     /// <returns></returns>
-    bool Insert();
+    bool Insert(List<T> entry);
 
     /// <summary>
     /// 

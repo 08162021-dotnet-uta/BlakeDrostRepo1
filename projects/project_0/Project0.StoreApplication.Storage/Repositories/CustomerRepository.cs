@@ -8,44 +8,25 @@ namespace Project0.StoreApplication.Storage.Repositories
   public class CustomerRepository : IRepository<Customer>
   {
     //File Path for storage of customers
-    private const string _path = @"~/home/blake/revature/blake_code/data/customers.xml";
+    private const string _path = @"/home/blake/revature/blake_code/data/customers.xml";
     private static readonly FileAdapter _fileAdapter = new FileAdapter();
-    //List of all customers
-    public List<Customer> Customers { get; set; }
 
-    //Private constructor for singleton usage
     public CustomerRepository()
     {
       if (_fileAdapter.ReadFromFile<Customer>(_path) == null)
       {
-        _fileAdapter.WriteToFile<List<Customer>>(_path, new List<Customer>());
-      }
-      //Customers = new List<Customer>(){
-      //new Customer(){ Name = "Bill"},
-      //new Customer(){ Name = "Anne"},
-      //new Customer(){ Name = "Taylor"}
-      //};
-    }
-
-    public Customer GetCustomer(int index)
-    {
-      try
-      {
-        return Customers[index];
-      }
-      catch
-      {
-        return null;
+        _fileAdapter.WriteToFile<Customer>(_path, new List<Customer>(){
+        new Customer(){ Name = "Bill"},
+        new Customer(){ Name = "Anne"},
+        new Customer(){ Name = "Taylor"}});
       }
     }
 
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    public bool Insert()
+    public bool Insert(List<Customer> entry)
     {
-      throw new System.NotImplementedException();
+      _fileAdapter.WriteToFile<Customer>(_path, entry);
+
+      return true;
     }
 
     /// <summary>
@@ -63,7 +44,7 @@ namespace Project0.StoreApplication.Storage.Repositories
     /// <returns></returns>
     public List<Customer> Select()
     {
-      return _fileAdapter.ReadFromFile<List<Customer>>(_path);
+      return _fileAdapter.ReadFromFile<Customer>(_path);
     }
 
     /// <summary>
@@ -73,22 +54,6 @@ namespace Project0.StoreApplication.Storage.Repositories
     public bool Delete()
     {
       throw new System.NotImplementedException();
-    }
-
-    private static CustomerRepository _customerRepository;
-
-    //creating a property
-    public static CustomerRepository Instance
-    {
-      get
-      {
-        if (_customerRepository == null)
-        {
-          //create an instance of customer repository
-          _customerRepository = new CustomerRepository();
-        }
-        return _customerRepository;
-      }
     }
   }
 }

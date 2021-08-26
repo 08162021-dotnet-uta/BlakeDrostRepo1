@@ -14,10 +14,10 @@ namespace Project0.StoreApplication.Client
   /// </summary>
   internal class Program
   {
-    private static readonly StoreRepository _storeRepo = StoreRepository.Instance;
+    private static readonly StoreSingleton _storeRepo = StoreSingleton.Instance;
     private static readonly CustomerSingleton _custRepo = CustomerSingleton.Instance;
-    private static readonly ProductRepository _prodRepo = ProductRepository.Instance;
-    private static OrderRepository _orderRepo = OrderRepository.Instance;
+    private static readonly ProductSingleton _prodRepo = ProductSingleton.Instance;
+    //private static OrderRepository _orderRepo = OrderSingleton.Instance;
     private const string logFilePath = @"/pathway to logs.txt";
 
     /// <summary>
@@ -35,8 +35,11 @@ namespace Project0.StoreApplication.Client
     static void Run()
     {
       //Log.Logger = new LoggerConfiguration().WriteTo.File(logFilePath).CreateLogger();
-      MakeOrder();
+      Console.WriteLine(SelectCustomer());
+      Console.WriteLine(SelectStore());
+      Console.WriteLine(SelectProduct());
     }
+
 
     //Generic Output
     private static void Output<T>(List<T> data)
@@ -50,79 +53,22 @@ namespace Project0.StoreApplication.Client
     }
     static Customer SelectCustomer()
     {
-      PrintAllCustomers();
-      var cr = _custRepo.Customers;
+      Output(_custRepo.Customers);
       Console.Write("Select a Customer: ");
-      return (cr[int.Parse(Console.ReadLine()) - 1]);
+      return (_custRepo.Customers[int.Parse(Console.ReadLine()) - 1]);
     }
-
-    static void PrintAllCustomers()
-    {
-      var count = 0;
-      foreach (var curCust in _custRepo.Customers)
-      {
-        count++;
-        System.Console.WriteLine(count + " - " + curCust);
-      }
-    }
-
-    static void PrintAllStoreLocations()
-    {
-      var count = 0;
-      foreach (var store in _storeRepo.Stores)
-      {
-        count++;
-        System.Console.WriteLine(count + " - " + store);
-      }
-    }
-
     static Store SelectStore()
     {
-      PrintAllStoreLocations();
-
-      var sr = _storeRepo.Stores;
+      Output(_storeRepo.Stores);
       Console.Write("Select a Store: ");
-      return (sr[int.Parse(Console.ReadLine()) - 1]);
+      return (_storeRepo.Stores[int.Parse(Console.ReadLine()) - 1]);
     }
 
-    /*
-        static void PrintAllProducts()
-        {
-          var count = 0;
-          var productRepository = new ProductRepository();
-          foreach (var product in productRepository.Products)
-          {
-            count++;
-            System.Console.WriteLine(count + " - " + product);
-          }
-        }
-
-        static Product SelectProduct()
-        {
-          PrintAllProducts();
-          var pr = new ProductRepository().Products;
-          Console.Write("Select a Product: ");
-          return (pr[int.Parse(Console.ReadLine()) - 1]);
-        }
-    */
-    static void MakeOrder()
+    static Product SelectProduct()
     {
-      Output<Customer>(_custRepo.Customers);
-      /*
-      _orderRepo.makeOrder(SelectCustomer(), SelectProduct(), SelectStore());
-
-      foreach (var order in _orderRepo.Orders)
-      {
-        System.Console.WriteLine(order);
-      }
-      */
-    }
-    static void PrintAllOrders()
-    {
-      foreach (var order in _orderRepo.Orders)
-      {
-        System.Console.WriteLine(order);
-      }
+      Output(_prodRepo.Products);
+      Console.Write("Select a Product: ");
+      return (_prodRepo.Products[int.Parse(Console.ReadLine()) - 1]);
     }
   }
 }
