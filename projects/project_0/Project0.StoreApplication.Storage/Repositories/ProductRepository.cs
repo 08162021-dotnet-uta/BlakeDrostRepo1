@@ -16,9 +16,9 @@ namespace Project0.StoreApplication.Storage.Repositories
       if (_fileAdapter.ReadFromFile<Product>(_path) == null)
       {
         _fileAdapter.WriteToFile<Product>(_path, new List<Product>(){
-        new Product(){ Name = "Shoe"},
-        new Product(){ Name = "Shirt"},
-        new Product(){ Name = "Hat"}});
+        new Product(){ Name = "Shoe", Price = 20.00, Quantity = 50},
+        new Product(){ Name = "Shirt", Price = 50.00, Quantity = 50},
+        new Product(){ Name = "Hat", Price = 30.00, Quantity = 50}});
       }
     }
 

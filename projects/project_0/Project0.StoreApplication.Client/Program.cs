@@ -14,11 +14,13 @@ namespace Project0.StoreApplication.Client
   /// </summary>
   internal class Program
   {
-    private static readonly StoreSingleton _storeRepo = StoreSingleton.Instance;
-    private static readonly CustomerSingleton _custRepo = CustomerSingleton.Instance;
-    private static readonly ProductSingleton _prodRepo = ProductSingleton.Instance;
-    //private static OrderRepository _orderRepo = OrderSingleton.Instance;
+    private static readonly StoreSingleton _storeSingleton = StoreSingleton.Instance;
+    //private static readonly CustomerSingleton _custSingleton = CustomerSingleton.Instance;
+    private static readonly ProductSingleton _prodSingleton = ProductSingleton.Instance;
+    private static OrderSingleton _orderSingleton = OrderSingleton.Instance;
     private const string logFilePath = @"/pathway to logs.txt";
+    private Product tempProduct;  //For selection purposes
+    private Store tempStore;      //For selection purposes
 
     /// <summary>
     /// Defines the Main Method
@@ -34,15 +36,49 @@ namespace Project0.StoreApplication.Client
     /// </summary>
     static void Run()
     {
+      Console.WriteLine("Welcome Valued Customer!");
+      Console.WriteLine("Your previous purchase are listed below.");
+      PrintAllOrders();
       //Log.Logger = new LoggerConfiguration().WriteTo.File(logFilePath).CreateLogger();
-      Console.WriteLine(SelectCustomer());
-      Console.WriteLine(SelectStore());
-      Console.WriteLine(SelectProduct());
+      var tempStore = SelectStore();
+      //Console.WriteLine(SelectStore());
+      var tempProduct = SelectProduct();
+      //Console.WriteLine(SelectProduct());
+      Console.WriteLine("The Selected Store is : " + tempStore);
+      //*******NEEDS IMPLEMENTATION*******
+      //Show previous orders from this location.
+      Console.WriteLine("The selected product is : " + tempProduct);
+      //Prompt User for Confirmation of an Order
+      //Add the order containing the tempStore and tempProduct
+      if (ConfirmPurchase())
+      {
+        _orderSingleton.AddToOrderRepository(tempStore, tempProduct);
+      }
+
     }
 
+    private static void PrintAllOrders()
+    {
+      int count = 0;
+      foreach (var o in _orderSingleton.getRepo().GetOrders())
+      {
+        count++;
+        Console.WriteLine(count + " - " + o);
+      }
+    }
+
+    static bool ConfirmPurchase()
+    {
+      Console.Write("Confirm Purchase (Y/N): ");
+      if (Console.ReadLine() == "Y")
+      {
+        return true;
+      }
+      return false;
+    }
 
     //Generic Output
-    private static void Output<T>(List<T> data)
+    static void Output<T>(List<T> data)
     {
       var count = 0;
       foreach (var x in data)
@@ -51,24 +87,26 @@ namespace Project0.StoreApplication.Client
         System.Console.WriteLine(count + " - " + x);
       }
     }
-    static Customer SelectCustomer()
+
+    /*static Customer SelectCustomer()
     {
-      Output(_custRepo.Customers);
+      Output(_custSingleton.Customers);
       Console.Write("Select a Customer: ");
-      return (_custRepo.Customers[int.Parse(Console.ReadLine()) - 1]);
-    }
+      return (_custSingleton.Customers[int.Parse(Console.ReadLine()) - 1]);
+    }*/
     static Store SelectStore()
     {
-      Output(_storeRepo.Stores);
+      Output(_storeSingleton.Stores);
       Console.Write("Select a Store: ");
-      return (_storeRepo.Stores[int.Parse(Console.ReadLine()) - 1]);
+      return (_storeSingleton.Stores[int.Parse(Console.ReadLine()) - 1]);
     }
 
     static Product SelectProduct()
     {
-      Output(_prodRepo.Products);
+      Output(_prodSingleton.Products);
       Console.Write("Select a Product: ");
-      return (_prodRepo.Products[int.Parse(Console.ReadLine()) - 1]);
+      return (_prodSingleton.Products[int.Parse(Console.ReadLine()) - 1]);
     }
+
   }
 }

@@ -2,11 +2,11 @@ namespace Project0.StoreApplication.Domain.Models
 {
   public class Order
   {
-    public Customer Customer
-    {
-      get;
-      set;
-    }
+    //public Customer Customer
+    //{
+    //  get;
+    //  set;
+    //}
     public Product Product
     {
       get;
@@ -16,6 +16,10 @@ namespace Project0.StoreApplication.Domain.Models
     {
       get;
       set;
+    }
+    public override string ToString()
+    {
+      return "Location: " + Store + ", Product: " + Product;
     }
   }
 }

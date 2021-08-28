@@ -2,11 +2,17 @@
 <ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Product>
     <Name>Shoe</Name>
+    <Price>20</Price>
+    <Quantity>50</Quantity>
   </Product>
   <Product>
     <Name>Shirt</Name>
+    <Price>50</Price>
+    <Quantity>50</Quantity>
   </Product>
   <Product>
     <Name>Hat</Name>
+    <Price>30</Price>
+    <Quantity>50</Quantity>
   </Product>
 </ArrayOfProduct>
