@@ -1,40 +1,587 @@
 {
+  "Project0.StoreApplication.Client.dll": {
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Client/Program.cs": {
+      "Project0.StoreApplication.Client.Program": {
+        "System.Void Project0.StoreApplication.Client.Program::Main(System.String[])": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Client.Program::Run()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "45": 0,
+            "47": 0,
+            "50": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 48,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 77,
+              "EndOffset": 79,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 77,
+              "EndOffset": 83,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 106,
+              "EndOffset": 108,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 106,
+              "EndOffset": 123,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Client.Program::PrintAllOrders()": {
+          "Lines": {
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": [
+            {
+              "Line": 63,
+              "Offset": 84,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 54,
+              "EndOffset": 60,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 84,
+              "EndOffset": 86,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Project0.StoreApplication.Client.Program::ConfirmPurchase()": {
+          "Lines": {
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0
+          },
+          "Branches": [
+            {
+              "Line": 73,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 29,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Client.Program::Output(System.Collections.Generic.List`1<T>)": {
+          "Lines": {
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0
+          },
+          "Branches": [
+            {
+              "Line": 84,
+              "Offset": 83,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 46,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "Project0.StoreApplication.Domain.Models.Store Project0.StoreApplication.Client.Program::SelectStore()": {
+          "Lines": {
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0
+          },
+          "Branches": []
+        },
+        "Project0.StoreApplication.Domain.Models.Product Project0.StoreApplication.Client.Program::SelectProduct()": {
+          "Lines": {
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Client.Program::.cctor()": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Client/Singletons/CustomerSinglton.cs": {
+      "Project0.StoreApplication.Client.Singletons.CustomerSingleton": {
+        "System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Customer> Project0.StoreApplication.Client.Singletons.CustomerSingleton::get_Customers()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Project0.StoreApplication.Client.Singletons.CustomerSingleton Project0.StoreApplication.Client.Singletons.CustomerSingleton::get_Instance()": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Client.Singletons.CustomerSingleton::.ctor()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Client.Singletons.CustomerSingleton::.cctor()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Client/Singletons/OrderSingleton.cs": {
+      "Project0.StoreApplication.Client.Singletons.OrderSingleton": {
+        "Project0.StoreApplication.Client.Singletons.OrderSingleton Project0.StoreApplication.Client.Singletons.OrderSingleton::get_Instance()": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Client.Singletons.OrderSingleton::AddToOrderRepository(Project0.StoreApplication.Domain.Models.Store,Project0.StoreApplication.Domain.Models.Product)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "33": 0
+          },
+          "Branches": []
+        },
+        "Project0.StoreApplication.Storage.Repositories.OrderRepository Project0.StoreApplication.Client.Singletons.OrderSingleton::getRepo()": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Client.Singletons.OrderSingleton::.ctor()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Client.Singletons.OrderSingleton::.cctor()": {
+          "Lines": {
+            "10": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Client/Singletons/ProductSingleton.cs": {
+      "Project0.StoreApplication.Client.Singletons.ProductSingleton": {
+        "System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Product> Project0.StoreApplication.Client.Singletons.ProductSingleton::get_Products()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Project0.StoreApplication.Client.Singletons.ProductSingleton Project0.StoreApplication.Client.Singletons.ProductSingleton::get_Instance()": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Client.Singletons.ProductSingleton::.ctor()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Client.Singletons.ProductSingleton::.cctor()": {
+          "Lines": {
+            "10": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Client/Singletons/StoreSingleton.cs": {
+      "Project0.StoreApplication.Client.Singletons.StoreSingleton": {
+        "System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Store> Project0.StoreApplication.Client.Singletons.StoreSingleton::get_Stores()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Project0.StoreApplication.Client.Singletons.StoreSingleton Project0.StoreApplication.Client.Singletons.StoreSingleton::get_Instance()": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Client.Singletons.StoreSingleton::.ctor()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Client.Singletons.StoreSingleton::.cctor()": {
+          "Lines": {
+            "10": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
   "Project0.StoreApplication.Domain.dll": {
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/Models/Customer.cs": {
+      "Project0.StoreApplication.Domain.Models.Customer": {
+        "System.String Project0.StoreApplication.Domain.Models.Customer::get_Name()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Project0.StoreApplication.Domain.Models.Customer::ToString()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Domain.Models.Customer::AddOrder(Project0.StoreApplication.Domain.Models.Order)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Domain.Models.Customer::.ctor()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
     "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/Models/Order.cs": {
       "Project0.StoreApplication.Domain.Models.Order": {
-        "Project0.StoreApplication.Domain.Models.Customer Project0.StoreApplication.Domain.Models.Order::get_Customer()": {
-          "Lines": {
-            "4": 0
-          },
-          "Branches": []
-        },
-        "System.Void Project0.StoreApplication.Domain.Models.Order::set_Customer(Project0.StoreApplication.Domain.Models.Customer)": {
-          "Lines": {
-            "5": 0
-          },
-          "Branches": []
-        },
         "Project0.StoreApplication.Domain.Models.Product Project0.StoreApplication.Domain.Models.Order::get_Product()": {
           "Lines": {
-            "8": 0
+            "12": 1
           },
           "Branches": []
         },
         "System.Void Project0.StoreApplication.Domain.Models.Order::set_Product(Project0.StoreApplication.Domain.Models.Product)": {
           "Lines": {
-            "9": 0
+            "13": 72
           },
           "Branches": []
         },
         "Project0.StoreApplication.Domain.Models.Store Project0.StoreApplication.Domain.Models.Order::get_Store()": {
           "Lines": {
-            "12": 0
+            "17": 1
           },
           "Branches": []
         },
         "System.Void Project0.StoreApplication.Domain.Models.Order::set_Store(Project0.StoreApplication.Domain.Models.Store)": {
           "Lines": {
-            "13": 0
+            "18": 72
+          },
+          "Branches": []
+        },
+        "System.String Project0.StoreApplication.Domain.Models.Order::ToString()": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 13,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 36,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/Models/Product.cs": {
+      "Project0.StoreApplication.Domain.Models.Product": {
+        "System.Void Project0.StoreApplication.Domain.Models.Product::set_Name(System.String)": {
+          "Lines": {
+            "5": 88
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Domain.Models.Product::set_Price(System.Double)": {
+          "Lines": {
+            "6": 88
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Domain.Models.Product::set_Quantity(System.Int16)": {
+          "Lines": {
+            "7": 87
+          },
+          "Branches": []
+        },
+        "System.String Project0.StoreApplication.Domain.Models.Product::ToString()": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "12": 1
           },
           "Branches": []
         }
@@ -42,17 +589,31 @@
     },
     "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Domain/Models/Store.cs": {
       "Project0.StoreApplication.Domain.Models.Store": {
-        "System.String Project0.StoreApplication.Domain.Models.Store::get_Name()": {
+        "System.String Project0.StoreApplication.Domain.Models.Store::get_Location()": {
           "Lines": {
-            "4": 15
+            "7": 88
           },
           "Branches": []
         },
         "System.String Project0.StoreApplication.Domain.Models.Store::ToString()": {
           "Lines": {
-            "6": 0,
-            "7": 0,
-            "8": 0
+            "12": 1,
+            "13": 1,
+            "14": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Domain.Models.Store::AddOrder(Project0.StoreApplication.Domain.Models.Order)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Domain.Models.Store::.ctor()": {
+          "Lines": {
+            "8": 89
           },
           "Branches": []
         }
@@ -60,36 +621,393 @@
     }
   },
   "Project0.StoreApplication.Storage.dll": {
-    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Repositories/StoreRepository.cs": {
-      "Project0.StoreApplication.Storage.Repositories.StoreRepository": {
-        "System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Store> Project0.StoreApplication.Storage.Repositories.StoreRepository::get_Stores()": {
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Repositories/CustomerRepository.cs": {
+      "Project0.StoreApplication.Storage.Repositories.CustomerRepository": {
+        "System.Boolean Project0.StoreApplication.Storage.Repositories.CustomerRepository::Insert(System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Customer>)": {
           "Lines": {
-            "8": 10
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0
           },
           "Branches": []
         },
-        "Project0.StoreApplication.Domain.Models.Store Project0.StoreApplication.Storage.Repositories.StoreRepository::GetStore(System.Int32)": {
+        "Project0.StoreApplication.Domain.Models.Customer Project0.StoreApplication.Storage.Repositories.CustomerRepository::Update()": {
           "Lines": {
-            "20": 4,
-            "22": 4,
-            "23": 4,
-            "25": 1,
-            "26": 1,
-            "27": 1,
-            "29": 4
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Customer> Project0.StoreApplication.Storage.Repositories.CustomerRepository::Select()": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Project0.StoreApplication.Storage.Repositories.CustomerRepository::Delete()": {
+          "Lines": {
+            "55": 0,
+            "56": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Storage.Repositories.CustomerRepository::.ctor()": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 28,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Storage.Repositories.CustomerRepository::.cctor()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Repositories/OrderRepository.cs": {
+      "Project0.StoreApplication.Storage.Repositories.OrderRepository": {
+        "System.Void Project0.StoreApplication.Storage.Repositories.OrderRepository::AddOrder(Project0.StoreApplication.Domain.Models.Store,Project0.StoreApplication.Domain.Models.Product)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Order> Project0.StoreApplication.Storage.Repositories.OrderRepository::GetOrders()": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Project0.StoreApplication.Storage.Repositories.OrderRepository::Insert(System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Order>)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        },
+        "Project0.StoreApplication.Domain.Models.Order Project0.StoreApplication.Storage.Repositories.OrderRepository::Update()": {
+          "Lines": {
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Order> Project0.StoreApplication.Storage.Repositories.OrderRepository::Select()": {
+          "Lines": {
+            "61": 2,
+            "62": 2,
+            "63": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean Project0.StoreApplication.Storage.Repositories.OrderRepository::Delete()": {
+          "Lines": {
+            "70": 0,
+            "71": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Storage.Repositories.OrderRepository::.ctor()": {
+          "Lines": {
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 3,
+            "25": 3,
+            "26": 3,
+            "27": 3
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 28,
+              "EndOffset": 55,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Storage.Repositories.OrderRepository::.cctor()": {
+          "Lines": {
+            "13": 1,
+            "15": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Repositories/ProductRepository.cs": {
+      "Project0.StoreApplication.Storage.Repositories.ProductRepository": {
+        "System.Boolean Project0.StoreApplication.Storage.Repositories.ProductRepository::Insert(System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Product>)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "Project0.StoreApplication.Domain.Models.Product Project0.StoreApplication.Storage.Repositories.ProductRepository::Update()": {
+          "Lines": {
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Product> Project0.StoreApplication.Storage.Repositories.ProductRepository::Select()": {
+          "Lines": {
+            "46": 2,
+            "47": 2,
+            "48": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean Project0.StoreApplication.Storage.Repositories.ProductRepository::Delete()": {
+          "Lines": {
+            "55": 0,
+            "56": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Storage.Repositories.ProductRepository::.ctor()": {
+          "Lines": {
+            "14": 3,
+            "15": 3,
+            "16": 3,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 3
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 28,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 28,
+              "EndOffset": 203,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Storage.Repositories.ProductRepository::.cctor()": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Repositories/StoreRepository.cs": {
+      "Project0.StoreApplication.Storage.Repositories.StoreRepository": {
+        "System.Boolean Project0.StoreApplication.Storage.Repositories.StoreRepository::Insert(System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Store>)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "Project0.StoreApplication.Domain.Models.Store Project0.StoreApplication.Storage.Repositories.StoreRepository::Update()": {
+          "Lines": {
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Project0.StoreApplication.Domain.Models.Store> Project0.StoreApplication.Storage.Repositories.StoreRepository::Select()": {
+          "Lines": {
+            "45": 2,
+            "46": 2,
+            "47": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean Project0.StoreApplication.Storage.Repositories.StoreRepository::Delete()": {
+          "Lines": {
+            "54": 0,
+            "55": 0
           },
           "Branches": []
         },
         "System.Void Project0.StoreApplication.Storage.Repositories.StoreRepository::.ctor()": {
           "Lines": {
-            "10": 5,
-            "11": 5,
-            "12": 5,
-            "13": 5,
-            "14": 5,
-            "15": 5,
-            "16": 5,
-            "17": 5
+            "14": 3,
+            "15": 3,
+            "16": 3,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 3
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 28,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Storage.Repositories.StoreRepository::.cctor()": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Adapters/DataAdapter.cs": {
+      "Project0.StoreApplication.Storage.Adapters.DataAdapter": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Project0.StoreApplication.Domain.Models.Customer> Project0.StoreApplication.Storage.Adapters.DataAdapter::get_Customers()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Project0.StoreApplication.Domain.Models.Order> Project0.StoreApplication.Storage.Adapters.DataAdapter::get_Orders()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Project0.StoreApplication.Domain.Models.Product> Project0.StoreApplication.Storage.Adapters.DataAdapter::get_Products()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Project0.StoreApplication.Domain.Models.Store> Project0.StoreApplication.Storage.Adapters.DataAdapter::get_Stores()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project0.StoreApplication.Storage.Adapters.DataAdapter::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/blake/revature/blake_code/projects/project_0/Project0.StoreApplication.Storage/Adapters/FileAdapter.cs": {
+      "Project0.StoreApplication.Storage.Adapters.FileAdapter": {
+        "System.Collections.Generic.List`1<T> Project0.StoreApplication.Storage.Adapters.FileAdapter::ReadFromFile(System.String)": {
+          "Lines": {
+            "17": 18,
+            "18": 18,
+            "19": 0,
+            "20": 0,
+            "22": 18,
+            "23": 18,
+            "24": 18,
+            "25": 18,
+            "26": 18
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 12,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 18
+            }
+          ]
+        },
+        "System.Void Project0.StoreApplication.Storage.Adapters.FileAdapter::WriteToFile(System.String,System.Collections.Generic.List`1<T>)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
           },
           "Branches": []
         }
