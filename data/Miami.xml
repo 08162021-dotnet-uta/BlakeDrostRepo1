@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <OrderID>0</OrderID>
+    <CustomerID>0</CustomerID>
+    <StoreID>0</StoreID>
+    <Product>
+      <ProductID>0</ProductID>
+      <ProductName>Hat</ProductName>
+      <ProductPrice>30</ProductPrice>
+      <ProductQuantity>50</ProductQuantity>
+    </Product>
+    <Store>
+      <StoreID>0</StoreID>
+      <StoreLocation>Miami</StoreLocation>
+    </Store>
+  </Order>
+</ArrayOfOrder>

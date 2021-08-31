@@ -35,7 +35,8 @@ namespace Project0.StoreApplication.Client
     }
 
     /// <summary>
-    /// 
+    /// Will prompt the user for selections and display information
+    /// Drives the program
     /// </summary>
     static void Run()
     {
@@ -53,11 +54,7 @@ namespace Project0.StoreApplication.Client
         Log.Information("The user chose not to see their orders.");
       }
       var tempStore = SelectStore();
-      //Console.WriteLine(SelectStore());
-      var tempProduct = SelectProduct();
-      //Console.WriteLine(SelectProduct());
-      Console.WriteLine("The Selected Store is : " + tempStore);
-      Console.Write("Would you like to see all purchase from this Store? ");
+      Console.Write("Would you like to see all purchase from " + tempStore + "? ");
       if (Confirmation())
       {
         Log.Information("The user wants to see all orders from the selected store.");
@@ -67,13 +64,16 @@ namespace Project0.StoreApplication.Client
       {
         Log.Information("The user chose not to see all orders from the selected store.");
       }
-      Console.WriteLine("The selected product is : " + tempProduct);
-      if (ConfirmPurchase())
+      Console.WriteLine("************************************************************");
+      var tempProduct = SelectProduct();
+      Console.Write("Would you like to purchase " + tempProduct.ProductName + "? ");
+      if (Confirmation())
       {
         Log.Information("The user confirmed the order.");
         Order curOrder = new Order() { Store = tempStore, Product = tempProduct };
         _orderSingleton.AddToOrderRepository(tempStore, tempProduct);
         AddOrderToStore(tempStore, curOrder);
+        Console.WriteLine("Your order has been processes!");
       }
       else
       {
@@ -81,6 +81,9 @@ namespace Project0.StoreApplication.Client
       }
     }
 
+    /// <summary>
+    /// Will write to console all orders made across all store locations
+    /// </summary>
     private static void PrintAllOrders()
     {
       int count = 0;
@@ -89,17 +92,15 @@ namespace Project0.StoreApplication.Client
         count++;
         Console.WriteLine(count + " - " + o);
       }
+      Console.WriteLine("************************************************************");
     }
 
-    static bool ConfirmPurchase()
-    {
-      Console.Write("Confirm Purchase (Y/N): ");
-      if (Console.ReadLine() == "Y")
-      {
-        return true;
-      }
-      return false;
-    }
+    /// <summary>
+    /// Prompts the user for a yes or no response => Y/N.
+    /// Will return true if the user input Y.
+    /// Will return false for any other input.
+    /// </summary>
+    /// <returns></returns>
     static bool Confirmation()
     {
       Console.Write("(Y/N): ");
@@ -111,9 +112,19 @@ namespace Project0.StoreApplication.Client
         return false;
     }
 
-    //Generic Output
+    /// <summary>
+    /// Outputs a List of objects to the console.
+    /// Takes one parameter: A List of objects.
+    /// If there are no elements, will print a special case.
+    /// </summary>
+    /// <param name="data"></param>
+    /// <typeparam name="T"></typeparam>
     static void Output<T>(List<T> data)
     {
+      if (data.Count == 0)
+      {
+        Console.WriteLine("There is nothing here!");
+      }
       var count = 0;
       foreach (var x in data)
       {
@@ -128,6 +139,12 @@ namespace Project0.StoreApplication.Client
       Console.Write("Select a Customer: ");
       return (_custSingleton.Customers[int.Parse(Console.ReadLine()) - 1]);
     }*/
+    /// <summary>
+    /// Will print the store locations to console.
+    /// Prompts the user for a selection
+    /// Returns the selection as a Store
+    /// </summary>
+    /// <returns></returns>
     static Store SelectStore()
     {
       Output(_storeSingleton.Stores);
@@ -135,6 +152,12 @@ namespace Project0.StoreApplication.Client
       return (_storeSingleton.Stores[int.Parse(Console.ReadLine()) - 1]);
     }
 
+    /// <summary>
+    /// Will print the products to console.
+    /// Prompts the user for a selection
+    /// Returns the selection as a Product
+    /// </summary>
+    /// <returns></returns>
     static Product SelectProduct()
     {
       Output(_prodSingleton.Products);
@@ -142,13 +165,20 @@ namespace Project0.StoreApplication.Client
       return (_prodSingleton.Products[int.Parse(Console.ReadLine()) - 1]);
     }
 
+    /// <summary>
+    /// Will add a new order to a Store's list of orders.
+    /// Takes the parameters: Store, Order.
+    /// Will create a new file if no orders have been made at a store location.
+    /// </summary>
+    /// <param name="s"></param>
+    /// <param name="o"></param>
     static void AddOrderToStore(Store s, Order o)
     {
-      string ThePath = genericPath + s.Location + ".xml";
+      string ThePath = genericPath + s.StoreLocation + ".xml";
       List<Order> tempOrders;
       if (_fileAdapter.ReadFromFile<Order>(ThePath) == null)
       {
-        _fileAdapter.WriteToFile<Order>(ThePath, new List<Order>());
+        _fileAdapter.WriteToFile<Order>(ThePath, new List<Order>() { o });
       }
       else
       {
@@ -157,9 +187,20 @@ namespace Project0.StoreApplication.Client
         _fileAdapter.WriteToFile<Order>(ThePath, tempOrders);
       }
     }
+
+    /// <summary>
+    /// Will return a list of Orders.
+    /// Takes the parameter: Store
+    /// </summary>
+    /// <param name="s"></param>
+    /// <returns></returns>
     static List<Order> GetOrderFromStore(Store s)
     {
-      string ThePath = genericPath + s.Location + ".xml";
+      string ThePath = genericPath + s.StoreLocation + ".xml";
+      if (_fileAdapter.ReadFromFile<Order>(ThePath) == null)
+      {
+        _fileAdapter.WriteToFile<Order>(ThePath, new List<Order>());
+      }
       return _fileAdapter.ReadFromFile<Order>(ThePath);
     }
   }

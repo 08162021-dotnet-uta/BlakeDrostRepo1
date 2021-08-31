@@ -21,6 +21,9 @@ namespace Project0.StoreApplication.Client.Singletons
       }
     }
 
+    /// <summary>
+    /// Populates the List of Products property for the Singleton
+    /// </summary>
     private ProductSingleton()
     {
       Products = _productRepository.Select();

@@ -21,6 +21,9 @@ namespace Project0.StoreApplication.Client.Singletons
       }
     }
 
+    /// <summary>
+    /// Populates the List of Customers property for the Singleton
+    /// </summary>
     private CustomerSingleton()
     {
       Customers = _customerRepository.Select();

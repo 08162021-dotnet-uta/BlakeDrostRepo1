@@ -1,23 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Order>
+    <OrderID>0</OrderID>
+    <CustomerID>0</CustomerID>
+    <StoreID>0</StoreID>
     <Product>
-      <Name>Shoe</Name>
-      <Price>20</Price>
-      <Quantity>50</Quantity>
+      <ProductID>0</ProductID>
+      <ProductName>Shoe</ProductName>
+      <ProductPrice>20</ProductPrice>
+      <ProductQuantity>50</ProductQuantity>
     </Product>
     <Store>
-      <Location>Dallas</Location>
+      <StoreID>0</StoreID>
+      <StoreLocation>Dallas</StoreLocation>
     </Store>
   </Order>
   <Order>
+    <OrderID>0</OrderID>
+    <CustomerID>0</CustomerID>
+    <StoreID>0</StoreID>
     <Product>
-      <Name>Shoe</Name>
-      <Price>20</Price>
-      <Quantity>50</Quantity>
+      <ProductID>0</ProductID>
+      <ProductName>Shoe</ProductName>
+      <ProductPrice>20</ProductPrice>
+      <ProductQuantity>50</ProductQuantity>
     </Product>
     <Store>
-      <Location>Dallas</Location>
+      <StoreID>0</StoreID>
+      <StoreLocation>Dallas</StoreLocation>
+    </Store>
+  </Order>
+  <Order>
+    <OrderID>0</OrderID>
+    <CustomerID>0</CustomerID>
+    <StoreID>0</StoreID>
+    <Product>
+      <ProductID>0</ProductID>
+      <ProductName>Shoe</ProductName>
+      <ProductPrice>20</ProductPrice>
+      <ProductQuantity>50</ProductQuantity>
+    </Product>
+    <Store>
+      <StoreID>0</StoreID>
+      <StoreLocation>Dallas</StoreLocation>
+    </Store>
+  </Order>
+  <Order>
+    <OrderID>0</OrderID>
+    <CustomerID>0</CustomerID>
+    <StoreID>0</StoreID>
+    <Product>
+      <ProductID>0</ProductID>
+      <ProductName>Shoe</ProductName>
+      <ProductPrice>20</ProductPrice>
+      <ProductQuantity>50</ProductQuantity>
+    </Product>
+    <Store>
+      <StoreID>0</StoreID>
+      <StoreLocation>Dallas</StoreLocation>
     </Store>
   </Order>
 </ArrayOfOrder>

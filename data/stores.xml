@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Store>
-    <Location>Dallas</Location>
+    <StoreID>0</StoreID>
+    <StoreLocation>Dallas</StoreLocation>
   </Store>
   <Store>
-    <Location>Houston</Location>
+    <StoreID>0</StoreID>
+    <StoreLocation>Houston</StoreLocation>
   </Store>
   <Store>
-    <Location>Miami</Location>
+    <StoreID>0</StoreID>
+    <StoreLocation>Miami</StoreLocation>
   </Store>
 </ArrayOfStore>

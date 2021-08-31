@@ -21,6 +21,9 @@ namespace Project0.StoreApplication.Client.Singletons
       }
     }
 
+    /// <summary>
+    /// Populates the List of Stores property for the Singleton
+    /// </summary>
     private StoreSingleton()
     {
       Stores = _storeRepository.Select();

@@ -4,13 +4,15 @@ namespace Project0.StoreApplication.Domain.Models
 {
   public class Customer
   {
-    public string Name { get; set; }
+    public int CustomerID { get; set; }
+    public string CustomerName { get; set; }
+    public bool Active { get; set; }
 
     public List<Order> Orders = new List<Order>();
 
     public override string ToString()
     {
-      return Name;
+      return CustomerName;
     }
 
     public void AddOrder(Order o)

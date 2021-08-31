@@ -1,0 +1,45 @@
+2021-08-31 17:45:19.937 -05:00 [INF] *****Begin Program*****
+2021-08-31 17:45:25.198 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 17:48:36.046 -05:00 [INF] *****Begin Program*****
+2021-08-31 17:48:38.142 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 17:52:22.665 -05:00 [INF] *****Begin Program*****
+2021-08-31 17:52:24.430 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:04:31.245 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:04:33.517 -05:00 [INF] The user chose not to see their orders.
+2021-08-31 18:09:34.456 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:09:35.405 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:09:50.093 -05:00 [INF] The user chose not to see all orders from the selected store.
+2021-08-31 18:09:52.133 -05:00 [INF] The user chose not to confirm the order.
+2021-08-31 18:11:16.836 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:11:23.541 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:12:35.055 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:12:37.924 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:12:48.013 -05:00 [INF] The user chose not to see all orders from the selected store.
+2021-08-31 18:12:48.901 -05:00 [INF] The user chose not to confirm the order.
+2021-08-31 18:12:59.946 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:13:01.924 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:13:09.060 -05:00 [INF] The user wants to see all orders from the selected store.
+2021-08-31 18:14:34.326 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:14:35.660 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:14:45.692 -05:00 [INF] The user wants to see all orders from the selected store.
+2021-08-31 18:14:56.685 -05:00 [INF] The user confirmed the order.
+2021-08-31 18:16:21.565 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:16:23.908 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:16:46.172 -05:00 [INF] The user wants to see all orders from the selected store.
+2021-08-31 18:17:12.397 -05:00 [INF] The user confirmed the order.
+2021-08-31 18:18:36.396 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:18:39.668 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:23:04.972 -05:00 [INF] The user wants to see all orders from the selected store.
+2021-08-31 18:23:06.364 -05:00 [INF] The user confirmed the order.
+2021-08-31 18:23:10.076 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:23:11.780 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:23:16.540 -05:00 [INF] The user wants to see all orders from the selected store.
+2021-08-31 18:23:26.244 -05:00 [INF] The user confirmed the order.
+2021-08-31 18:23:41.316 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:24:01.796 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:24:06.564 -05:00 [INF] The user wants to see all orders from the selected store.
+2021-08-31 18:24:17.220 -05:00 [INF] The user confirmed the order.
+2021-08-31 18:27:55.506 -05:00 [INF] *****Begin Program*****
+2021-08-31 18:27:57.220 -05:00 [INF] The user wants to see all their orders.
+2021-08-31 18:28:01.644 -05:00 [INF] The user wants to see all orders from the selected store.
+2021-08-31 18:28:06.532 -05:00 [INF] The user confirmed the order.

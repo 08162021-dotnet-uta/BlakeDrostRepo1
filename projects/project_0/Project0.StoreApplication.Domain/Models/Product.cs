@@ -2,13 +2,14 @@ namespace Project0.StoreApplication.Domain.Models
 {
   public class Product
   {
-    public string Name { set; get; }
-    public double Price { set; get; }
-    public short Quantity { set; get; }
+    public int ProductID { get; set; }
+    public string ProductName { get; set; }
+    public double ProductPrice { get; set; }
+    public short ProductQuantity { get; set; }
 
     public override string ToString()
     {
-      return "Name: " + Name + ", Price: $" + Price;
+      return "Name: " + ProductName + ", Price: $" + ProductPrice;
     }
   }
 }

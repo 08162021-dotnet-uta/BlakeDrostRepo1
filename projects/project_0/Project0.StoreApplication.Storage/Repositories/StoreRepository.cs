@@ -16,9 +16,9 @@ namespace Project0.StoreApplication.Storage.Repositories
       if (_fileAdapter.ReadFromFile<Store>(_path) == null)
       {
         _fileAdapter.WriteToFile<Store>(_path, new List<Store>(){
-        new Store(){ Location = "Dallas"},
-        new Store(){ Location = "Houston"},
-        new Store(){ Location = "Miami"}});
+        new Store(){ StoreLocation = "Dallas"},
+        new Store(){ StoreLocation = "Houston"},
+        new Store(){ StoreLocation = "Miami"}});
       }
     }
     public bool Insert(List<Store> entry)
