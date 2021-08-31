@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Project0.StoreApplication.Client.Singletons;
 using Project0.StoreApplication.Domain.Models;
+using Project0.StoreApplication.Storage.Adapters;
 using Project0.StoreApplication.Storage.Repositories;
 using Serilog;
 
@@ -18,9 +19,11 @@ namespace Project0.StoreApplication.Client
     //private static readonly CustomerSingleton _custSingleton = CustomerSingleton.Instance;
     private static readonly ProductSingleton _prodSingleton = ProductSingleton.Instance;
     private static OrderSingleton _orderSingleton = OrderSingleton.Instance;
-    private const string logFilePath = @"/pathway to logs.txt";
-    private Product tempProduct;  //For selection purposes
-    private Store tempStore;      //For selection purposes
+    private static string genericPath = @"/home/blake/revature/blake_code/data/";
+    private static readonly FileAdapter _fileAdapter = new FileAdapter();
+    private const string logFilePath = @"/home/blake/revature/blake_code/data/logFiles.txt";
+    //private Product tempProduct;  //For selection purposes
+    //private Store tempStore;      //For selection purposes
 
     /// <summary>
     /// Defines the Main Method
@@ -36,25 +39,46 @@ namespace Project0.StoreApplication.Client
     /// </summary>
     static void Run()
     {
+      Log.Logger = new LoggerConfiguration().WriteTo.File(logFilePath).CreateLogger();
+      Log.Information("*****Begin Program*****");
       Console.WriteLine("Welcome Valued Customer!");
-      Console.WriteLine("Your previous purchase are listed below.");
-      PrintAllOrders();
-      //Log.Logger = new LoggerConfiguration().WriteTo.File(logFilePath).CreateLogger();
+      Console.Write("Would you like to see all previous orders? ");
+      if (Confirmation())
+      {
+        Log.Information("The user wants to see all their orders.");
+        PrintAllOrders();
+      }
+      else
+      {
+        Log.Information("The user chose not to see their orders.");
+      }
       var tempStore = SelectStore();
       //Console.WriteLine(SelectStore());
       var tempProduct = SelectProduct();
       //Console.WriteLine(SelectProduct());
       Console.WriteLine("The Selected Store is : " + tempStore);
-      //*******NEEDS IMPLEMENTATION*******
-      //Show previous orders from this location.
+      Console.Write("Would you like to see all purchase from this Store? ");
+      if (Confirmation())
+      {
+        Log.Information("The user wants to see all orders from the selected store.");
+        Output(GetOrderFromStore(tempStore));
+      }
+      else
+      {
+        Log.Information("The user chose not to see all orders from the selected store.");
+      }
       Console.WriteLine("The selected product is : " + tempProduct);
-      //Prompt User for Confirmation of an Order
-      //Add the order containing the tempStore and tempProduct
       if (ConfirmPurchase())
       {
+        Log.Information("The user confirmed the order.");
+        Order curOrder = new Order() { Store = tempStore, Product = tempProduct };
         _orderSingleton.AddToOrderRepository(tempStore, tempProduct);
+        AddOrderToStore(tempStore, curOrder);
       }
-
+      else
+      {
+        Log.Information("The user chose not to confirm the order.");
+      }
     }
 
     private static void PrintAllOrders()
@@ -75,6 +99,16 @@ namespace Project0.StoreApplication.Client
         return true;
       }
       return false;
+    }
+    static bool Confirmation()
+    {
+      Console.Write("(Y/N): ");
+      if (Console.ReadLine() == "Y")
+      {
+        return true;
+      }
+      else
+        return false;
     }
 
     //Generic Output
@@ -108,5 +142,25 @@ namespace Project0.StoreApplication.Client
       return (_prodSingleton.Products[int.Parse(Console.ReadLine()) - 1]);
     }
 
+    static void AddOrderToStore(Store s, Order o)
+    {
+      string ThePath = genericPath + s.Location + ".xml";
+      List<Order> tempOrders;
+      if (_fileAdapter.ReadFromFile<Order>(ThePath) == null)
+      {
+        _fileAdapter.WriteToFile<Order>(ThePath, new List<Order>());
+      }
+      else
+      {
+        tempOrders = _fileAdapter.ReadFromFile<Order>(ThePath);
+        tempOrders.Add(o);
+        _fileAdapter.WriteToFile<Order>(ThePath, tempOrders);
+      }
+    }
+    static List<Order> GetOrderFromStore(Store s)
+    {
+      string ThePath = genericPath + s.Location + ".xml";
+      return _fileAdapter.ReadFromFile<Order>(ThePath);
+    }
   }
 }

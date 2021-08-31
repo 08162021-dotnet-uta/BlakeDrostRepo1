@@ -17,7 +17,7 @@ namespace Project0.StoreApplication.Storage.Repositories
       {
         _fileAdapter.WriteToFile<Store>(_path, new List<Store>(){
         new Store(){ Location = "Dallas"},
-        new Store(){ Location = "New York"},
+        new Store(){ Location = "Houston"},
         new Store(){ Location = "Miami"}});
       }
     }
