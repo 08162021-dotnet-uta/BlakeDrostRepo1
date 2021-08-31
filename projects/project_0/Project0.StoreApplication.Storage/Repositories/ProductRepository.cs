@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using Project0.StoreApplication.Domain.Interfaces;
 using Project0.StoreApplication.Domain.Models;
 using Project0.StoreApplication.Storage.Adapters;
@@ -10,7 +12,7 @@ namespace Project0.StoreApplication.Storage.Repositories
     private const string _path = @"/home/blake/revature/blake_code/data/products.xml";
 
     private static readonly FileAdapter _fileAdapter = new FileAdapter();
-    //private static readonly DataAdapter _dataAdapter = new DataAdapter();
+    private static readonly DataAdapter _dataAdapter = new DataAdapter();
 
     public ProductRepository()
     {
@@ -51,7 +53,7 @@ namespace Project0.StoreApplication.Storage.Repositories
 
     /*public List<Product> SelectDB()
     {
-      return _dataAdapter.GetProducts();
+      return _dataAdapter.Products.FromSqlRaw("SELECT ProductName, ProductPrice, ProductQuantity FROM Products").ToList();
     }*/
 
     /// <summary>

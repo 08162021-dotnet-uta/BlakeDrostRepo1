@@ -73,7 +73,7 @@ namespace Project0.StoreApplication.Client
         Order curOrder = new Order() { Store = tempStore, Product = tempProduct };
         _orderSingleton.AddToOrderRepository(tempStore, tempProduct);
         AddOrderToStore(tempStore, curOrder);
-        Console.WriteLine("Your order has been processes!");
+        Console.WriteLine("You have placed an order!");
       }
       else
       {
