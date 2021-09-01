@@ -66,7 +66,7 @@ namespace Project0.StoreApplication.Client
       }
       Console.WriteLine("************************************************************");
       var tempProduct = SelectProduct();
-      Console.Write("Would you like to purchase " + tempProduct.ProductName + "? ");
+      Console.Write("Would you like to purchase a " + tempProduct.ProductName + " from the " + tempStore.StoreLocation + " store? ");
       if (Confirmation())
       {
         Log.Information("The user confirmed the order.");
@@ -103,13 +103,25 @@ namespace Project0.StoreApplication.Client
     /// <returns></returns>
     static bool Confirmation()
     {
-      Console.Write("(Y/N): ");
-      if (Console.ReadLine() == "Y")
+      bool flag = true;
+      string input;
+      while (flag)
       {
-        return true;
+        Console.Write("(Y/N): ");
+        input = Console.ReadLine();
+        if (input == "Y")
+        {
+          flag = true;
+          break;
+        }
+        if (input == "N")
+        {
+          flag = false;
+          break;
+        }
+        Console.WriteLine("Not a valid input.");
       }
-      else
-        return false;
+      return flag;
     }
 
     /// <summary>

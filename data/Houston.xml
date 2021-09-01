@@ -30,4 +30,19 @@
       <StoreLocation>Houston</StoreLocation>
     </Store>
   </Order>
+  <Order>
+    <OrderID>0</OrderID>
+    <CustomerID>0</CustomerID>
+    <StoreID>0</StoreID>
+    <Product>
+      <ProductID>0</ProductID>
+      <ProductName>Hat</ProductName>
+      <ProductPrice>30</ProductPrice>
+      <ProductQuantity>50</ProductQuantity>
+    </Product>
+    <Store>
+      <StoreID>0</StoreID>
+      <StoreLocation>Houston</StoreLocation>
+    </Store>
+  </Order>
 </ArrayOfOrder>
