@@ -112,12 +112,13 @@ namespace _5_OperatorsChallenge
     /// <returns></returns>
     public static bool And(int num1, int num2)
     {
-      if (num1 != 0 && num1 > num2)
-      {
-        return true;
-      }
-      else
-        return false;
+      //if (num1 != 0 && num1 > num2)
+      //{
+      //return true;
+      //}
+      //else
+      //return false;
+      return (num1 != 0 && num1 > num2);
     }
 
     /// <summary>
@@ -127,12 +128,13 @@ namespace _5_OperatorsChallenge
     /// <returns></returns>
     public static bool Or(int num1, int num2)
     {
-      if (num1 < 0 || num1 == num2)
-      {
-        return true;
-      }
-      else
-        return false;
+      //if (num1 < 0 || num1 == num2)
+      //{
+      //return true;
+      //}
+      //else
+      //return false;
+      return (num1 < 0 || num1 == num2);
     }
   }
 }

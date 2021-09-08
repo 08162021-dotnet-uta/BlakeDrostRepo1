@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Os6wbBa95x5C7NUcwmcKdYbsMcIHxit4cEYes13bLUNf2YonxADPCPaTuxqWV9lQwLUuAJRo8KEASWhVS7RoPg==",
+  "dgSpecHash": "g6uinK9Bkx2aJohvVlMgyfvfPYylWFuDZRKQm3tRZpTWTjTTPHJBrwuLUHAL8ZrRWg/BFLsz9W4OZeFXgot2/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\blake\\Desktop\\Revature\\08162021-batch-repo\\codingchallenges\\5_Operators\\5_OperatorsChallenge.Tests\\5_OperatorsChallenge.Tests.csproj",
+  "projectFilePath": "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\coding_challenges\\5_Operators\\5_OperatorsChallenge.Tests\\5_OperatorsChallenge.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
     "C:\\Users\\blake\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

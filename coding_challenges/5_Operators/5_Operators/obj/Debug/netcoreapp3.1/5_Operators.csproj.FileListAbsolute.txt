@@ -12,3 +12,17 @@ C:\Users\blake\Desktop\Revature\08162021-batch-repo\codingchallenges\5_Operators
 C:\Users\blake\Desktop\Revature\08162021-batch-repo\codingchallenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.dll
 C:\Users\blake\Desktop\Revature\08162021-batch-repo\codingchallenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.pdb
 C:\Users\blake\Desktop\Revature\08162021-batch-repo\codingchallenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.genruntimeconfig.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\bin\Debug\netcoreapp3.1\5_Operators.exe
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\bin\Debug\netcoreapp3.1\5_Operators.deps.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\bin\Debug\netcoreapp3.1\5_Operators.runtimeconfig.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\bin\Debug\netcoreapp3.1\5_Operators.runtimeconfig.dev.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\bin\Debug\netcoreapp3.1\5_Operators.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\bin\Debug\netcoreapp3.1\5_Operators.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.csproj.AssemblyReference.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.AssemblyInfoInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.AssemblyInfo.cs
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.csproj.CoreCompileInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\5_Operators\5_Operators\obj\Debug\netcoreapp3.1\5_Operators.genruntimeconfig.cache

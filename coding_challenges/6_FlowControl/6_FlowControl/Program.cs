@@ -30,7 +30,7 @@ namespace _6_FlowControl
         //2nd a) the string we want to parse
         //2nd b) the variable to store the parsed string
         //3rd return true if parse was successful
-        //3rd return flase if parse was unsuccessful
+        //3rd return false if parse was unsuccessful
         if (int.TryParse(input, out validInput))
         {
           //Parse was successful!
@@ -126,6 +126,7 @@ namespace _6_FlowControl
       bool flag = true;
       while (flag)
       {
+
         string userInput = Console.ReadLine();
         string passInput = Console.ReadLine();
         if (userInput == username && passInput == password)

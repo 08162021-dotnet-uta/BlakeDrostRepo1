@@ -1,0 +1,14 @@
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\obj\Debug\netcoreapp3.1\8_LoopsChallenge.csproj.AssemblyReference.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\obj\Debug\netcoreapp3.1\8_LoopsChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\obj\Debug\netcoreapp3.1\8_LoopsChallenge.AssemblyInfoInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\obj\Debug\netcoreapp3.1\8_LoopsChallenge.AssemblyInfo.cs
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\obj\Debug\netcoreapp3.1\8_LoopsChallenge.csproj.CoreCompileInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\bin\Debug\netcoreapp3.1\8_LoopsChallenge.exe
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\bin\Debug\netcoreapp3.1\8_LoopsChallenge.deps.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\bin\Debug\netcoreapp3.1\8_LoopsChallenge.runtimeconfig.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\bin\Debug\netcoreapp3.1\8_LoopsChallenge.runtimeconfig.dev.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\bin\Debug\netcoreapp3.1\8_LoopsChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\bin\Debug\netcoreapp3.1\8_LoopsChallenge.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\obj\Debug\netcoreapp3.1\8_LoopsChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\obj\Debug\netcoreapp3.1\8_LoopsChallenge.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\8_Loops\8_Loops\obj\Debug\netcoreapp3.1\8_LoopsChallenge.genruntimeconfig.cache
