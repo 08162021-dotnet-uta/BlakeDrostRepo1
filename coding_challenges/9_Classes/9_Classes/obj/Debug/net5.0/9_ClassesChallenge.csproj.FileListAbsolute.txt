@@ -1,0 +1,16 @@
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\bin\Debug\net5.0\9_ClassesChallenge.exe
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\bin\Debug\net5.0\9_ClassesChallenge.deps.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\bin\Debug\net5.0\9_ClassesChallenge.runtimeconfig.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\bin\Debug\net5.0\9_ClassesChallenge.runtimeconfig.dev.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\bin\Debug\net5.0\9_ClassesChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\bin\Debug\net5.0\ref\9_ClassesChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\bin\Debug\net5.0\9_ClassesChallenge.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\obj\Debug\net5.0\9_ClassesChallenge.csproj.AssemblyReference.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\obj\Debug\net5.0\9_ClassesChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\obj\Debug\net5.0\9_ClassesChallenge.AssemblyInfoInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\obj\Debug\net5.0\9_ClassesChallenge.AssemblyInfo.cs
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\obj\Debug\net5.0\9_ClassesChallenge.csproj.CoreCompileInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\obj\Debug\net5.0\9_ClassesChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\obj\Debug\net5.0\ref\9_ClassesChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\obj\Debug\net5.0\9_ClassesChallenge.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\9_Classes\9_Classes\obj\Debug\net5.0\9_ClassesChallenge.genruntimeconfig.cache

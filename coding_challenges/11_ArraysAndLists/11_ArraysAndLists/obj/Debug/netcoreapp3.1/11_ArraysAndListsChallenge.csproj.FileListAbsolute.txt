@@ -1,0 +1,14 @@
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\obj\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.csproj.AssemblyReference.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\obj\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\obj\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.AssemblyInfoInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\obj\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.AssemblyInfo.cs
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\obj\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.csproj.CoreCompileInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\bin\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.exe
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\bin\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.deps.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\bin\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.runtimeconfig.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\bin\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.runtimeconfig.dev.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\bin\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\bin\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\obj\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\obj\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\11_ArraysAndLists\11_ArraysAndLists\obj\Debug\netcoreapp3.1\11_ArraysAndListsChallenge.genruntimeconfig.cache

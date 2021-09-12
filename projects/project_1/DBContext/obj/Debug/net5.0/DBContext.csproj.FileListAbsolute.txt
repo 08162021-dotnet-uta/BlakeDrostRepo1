@@ -1,0 +1,15 @@
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\bin\Debug\net5.0\DBContext.deps.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\bin\Debug\net5.0\DBContext.runtimeconfig.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\bin\Debug\net5.0\DBContext.runtimeconfig.dev.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\bin\Debug\net5.0\DBContext.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\bin\Debug\net5.0\ref\DBContext.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\bin\Debug\net5.0\DBContext.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\obj\Debug\net5.0\DBContext.csproj.AssemblyReference.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\obj\Debug\net5.0\DBContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\obj\Debug\net5.0\DBContext.AssemblyInfoInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\obj\Debug\net5.0\DBContext.AssemblyInfo.cs
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\obj\Debug\net5.0\DBContext.csproj.CoreCompileInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\obj\Debug\net5.0\DBContext.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\obj\Debug\net5.0\ref\DBContext.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\obj\Debug\net5.0\DBContext.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\DBContext\obj\Debug\net5.0\DBContext.genruntimeconfig.cache
