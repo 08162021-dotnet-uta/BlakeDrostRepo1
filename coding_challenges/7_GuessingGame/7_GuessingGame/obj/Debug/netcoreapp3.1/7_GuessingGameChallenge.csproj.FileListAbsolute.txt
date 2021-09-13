@@ -1,0 +1,14 @@
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.csproj.AssemblyReference.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.AssemblyInfoInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.AssemblyInfo.cs
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.csproj.CoreCompileInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.exe
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.deps.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.runtimeconfig.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.runtimeconfig.dev.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\bin\Debug\netcoreapp3.1\7_GuessingGameChallenge.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\7_GuessingGame\7_GuessingGame\obj\Debug\netcoreapp3.1\7_GuessingGameChallenge.genruntimeconfig.cache
