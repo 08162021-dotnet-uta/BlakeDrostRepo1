@@ -1,0 +1,16 @@
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\obj\Debug\net5.0\ConversionsChallenge.csproj.AssemblyReference.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\obj\Debug\net5.0\ConversionsChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\obj\Debug\net5.0\ConversionsChallenge.AssemblyInfoInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\obj\Debug\net5.0\ConversionsChallenge.AssemblyInfo.cs
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\obj\Debug\net5.0\ConversionsChallenge.csproj.CoreCompileInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\bin\Debug\net5.0\ConversionsChallenge.exe
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\bin\Debug\net5.0\ConversionsChallenge.deps.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\bin\Debug\net5.0\ConversionsChallenge.runtimeconfig.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\bin\Debug\net5.0\ConversionsChallenge.runtimeconfig.dev.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\bin\Debug\net5.0\ConversionsChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\bin\Debug\net5.0\ref\ConversionsChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\bin\Debug\net5.0\ConversionsChallenge.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\obj\Debug\net5.0\ConversionsChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\obj\Debug\net5.0\ref\ConversionsChallenge.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\obj\Debug\net5.0\ConversionsChallenge.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\coding_challenges\ConversionsChallenge\obj\Debug\net5.0\ConversionsChallenge.genruntimeconfig.cache
