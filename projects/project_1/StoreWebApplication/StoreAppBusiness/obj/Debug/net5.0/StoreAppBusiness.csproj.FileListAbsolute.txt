@@ -1,0 +1,17 @@
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\bin\Debug\net5.0\StoreAppBusiness.deps.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\bin\Debug\net5.0\StoreAppBusiness.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\bin\Debug\net5.0\ref\StoreAppBusiness.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\bin\Debug\net5.0\StoreAppBusiness.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\bin\Debug\net5.0\StoreAppDBContext.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\bin\Debug\net5.0\StoreAppModels.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\bin\Debug\net5.0\StoreAppDBContext.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\bin\Debug\net5.0\StoreAppModels.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\obj\Debug\net5.0\StoreAppBusiness.csproj.AssemblyReference.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\obj\Debug\net5.0\StoreAppBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\obj\Debug\net5.0\StoreAppBusiness.AssemblyInfoInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\obj\Debug\net5.0\StoreAppBusiness.AssemblyInfo.cs
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\obj\Debug\net5.0\StoreAppBusiness.csproj.CoreCompileInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\obj\Debug\net5.0\StoreAppBusiness.csproj.CopyComplete
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\obj\Debug\net5.0\StoreAppBusiness.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\obj\Debug\net5.0\ref\StoreAppBusiness.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppBusiness\obj\Debug\net5.0\StoreAppBusiness.pdb

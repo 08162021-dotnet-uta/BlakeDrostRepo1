@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppDBContext\\StoreAppDBContext.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppDBContext\\StoreAppDBContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppDBContext\\StoreAppDBContext.csproj",
+        "projectName": "StoreAppDBContext",
+        "projectPath": "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppDBContext\\StoreAppDBContext.csproj",
+        "packagesPath": "C:\\Users\\blake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppDBContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\blake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppModels\\StoreAppModels.csproj": {
+                "projectPath": "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppModels\\StoreAppModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppModels\\StoreAppModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppModels\\StoreAppModels.csproj",
+        "projectName": "StoreAppModels",
+        "projectPath": "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppModels\\StoreAppModels.csproj",
+        "packagesPath": "C:\\Users\\blake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\blake\\Desktop\\Revature\\BlakeDrostRepo1\\projects\\project_1\\StoreWebApplication\\StoreAppModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\blake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

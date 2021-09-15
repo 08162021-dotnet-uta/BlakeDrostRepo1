@@ -1,0 +1,12 @@
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\bin\Debug\net5.0\StoreAppModels.deps.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\bin\Debug\net5.0\StoreAppModels.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\bin\Debug\net5.0\ref\StoreAppModels.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\bin\Debug\net5.0\StoreAppModels.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\obj\Debug\net5.0\StoreAppModels.csproj.AssemblyReference.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\obj\Debug\net5.0\StoreAppModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\obj\Debug\net5.0\StoreAppModels.AssemblyInfoInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\obj\Debug\net5.0\StoreAppModels.AssemblyInfo.cs
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\obj\Debug\net5.0\StoreAppModels.csproj.CoreCompileInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\obj\Debug\net5.0\StoreAppModels.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\obj\Debug\net5.0\ref\StoreAppModels.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppModels\obj\Debug\net5.0\StoreAppModels.pdb
