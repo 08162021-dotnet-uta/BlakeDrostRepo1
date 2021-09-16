@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace StoreAppModels.ViewModels {
-    class ViewOrderProduct {
+    public class ViewOrderProduct {
         private int quantity;
         private ViewProduct product;
         private ViewOrder order;

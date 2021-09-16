@@ -9,6 +9,7 @@ namespace StoreAppModels.ViewModels {
         private string fname;
         private string lname;
         private string username;
+        private string password;
         public string Fname {
             get {
                 return this.fname;
@@ -48,10 +49,16 @@ namespace StoreAppModels.ViewModels {
                 }
             }
         }
-        public ViewCustomer(string fname, string lname, string username) {
+        public string Password {
+            get { return password; }
+            set { password = value; }
+        }
+        public ViewCustomer() { }
+        public ViewCustomer(string fname, string lname, string username, string password) {
             this.Fname = fname;
             this.Lname = lname;
             this.Username = username;
+            this.Password = password;
         }
     }
 }

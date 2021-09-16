@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace StoreAppModels.ViewModels {
-    class ViewProduct {
+    public class ViewProduct {
         private string name;
         private decimal price;
         public string Name {

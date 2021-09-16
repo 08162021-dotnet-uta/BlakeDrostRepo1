@@ -14,6 +14,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using StoreAppDBContext.Models;
 using Microsoft.AspNetCore.Rewrite;
+using StoreAppBusiness.Interfaces;
+using StoreAppBusiness.Repositories;
+using StoreAppModels.ViewModels;
 
 namespace StoreAppWebAPI {
     public class Startup {
@@ -25,7 +28,8 @@ namespace StoreAppWebAPI {
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
-
+            services.AddScoped<ICustomerRepo, CustomerRepo>();
+            services.AddScoped<IStoreRepo, StoreRepo>();
             services.AddControllers();
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "StoreAppWebAPI", Version = "v1" });

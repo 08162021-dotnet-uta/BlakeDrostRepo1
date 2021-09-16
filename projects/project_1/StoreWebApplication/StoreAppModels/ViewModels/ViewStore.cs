@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace StoreAppModels.ViewModels {
-    class ViewStore {
+    public class ViewStore {
         private string location;
         public string Location { get { return location; } set { location = value; } }
         public ViewStore(string loc) {

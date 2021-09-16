@@ -98,3 +98,15 @@ C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebAppli
 C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\obj\Debug\net5.0\ref\StoreAppTesting.dll
 C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\obj\Debug\net5.0\StoreAppTesting.pdb
 C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\obj\Debug\net5.0\StoreAppTesting.genruntimeconfig.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\projects\project_1\StoreWebApplication\StoreAppTesting\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
