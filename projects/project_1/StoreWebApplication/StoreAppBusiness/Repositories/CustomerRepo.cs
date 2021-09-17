@@ -30,8 +30,8 @@ namespace StoreAppBusiness.Repositories {
             return c1;
         }
         public async Task<ViewCustomer> RegisterCustomerAsync(ViewCustomer vc) {
-            Customer c = ViewToEF(vc);
-            int response = await _context.Database.ExecuteSqlRawAsync("INSERT INTO Customers(CustomerFirstName, CustomerLastName, CustomerUsername, CustomerPassword) VALUES ({0},{1},{2},{3})", c.CustomerFirstName, c.CustomerLastName, c.CustomerUsername, c.CustomerPassword);
+            //Customer c = ViewToEF(vc);
+            int response = await _context.Database.ExecuteSqlRawAsync("INSERT INTO Customers(CustomerFirstName, CustomerLastName, CustomerUsername, CustomerPassword) VALUES ({0},{1},{2},{3})", vc.Fname, vc.Lname, vc.Username, vc.Password);
             if (response != 1) return null;
             return await LoginCustomerAsync(vc);
         }

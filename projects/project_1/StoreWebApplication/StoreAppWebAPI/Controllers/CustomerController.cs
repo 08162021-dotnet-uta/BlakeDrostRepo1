@@ -29,7 +29,7 @@ namespace StoreAppWebAPI.Controllers {
             List<ViewCustomer> customers1 = await customers;
             return customers1;
         }
-
+        /*
         // GET: CustomerController/Create
         [HttpPost("register")]
         public async Task<ActionResult<ViewCustomer>> Create(ViewCustomer vc) {
@@ -40,7 +40,7 @@ namespace StoreAppWebAPI.Controllers {
             }
             return Created($"~customer/{c1.Username}", c1);
         }
-
+        */
         // POST: CustomerController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -95,6 +95,16 @@ namespace StoreAppWebAPI.Controllers {
                 return NotFound();
             }
             return Ok(c1);
+        }
+        [HttpPost("register/{fname}/{lname}/{username}/{password}")]
+        public async Task<ActionResult<ViewCustomer>> Register(string fname, string lname, string username, string password) {
+            if (!ModelState.IsValid) return BadRequest();
+            ViewCustomer vc = new ViewCustomer(fname, lname, username, password);
+            ViewCustomer c1 = await _customerRepo.RegisterCustomerAsync(vc);
+            if(c1 == null) {
+                return NotFound();
+            }
+            return c1;
         }
     }
 }

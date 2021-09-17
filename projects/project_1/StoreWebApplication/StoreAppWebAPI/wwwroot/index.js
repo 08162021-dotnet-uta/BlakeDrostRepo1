@@ -1,4 +1,8 @@
-﻿const logform = document.querySelector('#loginForm');
+﻿window.onload = function () {
+    sessionStorage.clear();
+}
+
+const logform = document.querySelector('#loginForm');
 
 logform.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -10,6 +14,7 @@ logform.addEventListener('submit', (e) => {
             if (!res.ok) {
                 console.log(`username: ${username} password: ${password}`);
                 console.log('unable to login the user');
+                location.href = "register.html";
                 throw new Error(`Network response was not ok (${res.status})`);
             }
             return res.json();
