@@ -1,0 +1,15 @@
+{
+  "name": "blaketypescriptdemo",
+  "version": "1.0.1",
+  "description": "This is a Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "tsc": "tsc"
+  },
+  "author": "Blake Drost",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}

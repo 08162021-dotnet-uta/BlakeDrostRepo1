@@ -1,0 +1,16 @@
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\bin\Debug\net5.0\QCPracticeConsole.exe
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\bin\Debug\net5.0\QCPracticeConsole.deps.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\bin\Debug\net5.0\QCPracticeConsole.runtimeconfig.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\bin\Debug\net5.0\QCPracticeConsole.runtimeconfig.dev.json
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\bin\Debug\net5.0\QCPracticeConsole.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\bin\Debug\net5.0\ref\QCPracticeConsole.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\bin\Debug\net5.0\QCPracticeConsole.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\obj\Debug\net5.0\QCPracticeConsole.csproj.AssemblyReference.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\obj\Debug\net5.0\QCPracticeConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\obj\Debug\net5.0\QCPracticeConsole.AssemblyInfoInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\obj\Debug\net5.0\QCPracticeConsole.AssemblyInfo.cs
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\obj\Debug\net5.0\QCPracticeConsole.csproj.CoreCompileInputs.cache
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\obj\Debug\net5.0\QCPracticeConsole.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\obj\Debug\net5.0\ref\QCPracticeConsole.dll
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\obj\Debug\net5.0\QCPracticeConsole.pdb
+C:\Users\blake\Desktop\Revature\BlakeDrostRepo1\Demos\QCPractice\QCPracticeConsole\obj\Debug\net5.0\QCPracticeConsole.genruntimeconfig.cache
