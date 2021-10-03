@@ -1,0 +1,80 @@
+content_copy
+/* DashboardComponent's private CSS styles */
+
+h2 {
+  text-align: center;
+}
+
+h3:hover {
+  color: #ff0000;
+  font-size: 22px;
+}
+
+  .heroes-menu {
+  padding: 0;
+  margin: auto;
+  max-width: 1000px;
+
+  /* flexbox */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+
+@media (min-width: 600px) {
+  a {
+    width: 18%;
+    box-sizing: content-box;
+  }
+}
+
+a:hover {
+  background-color: #000;
+  font-size: 100px;
+}
+
+/*new addition form games display*/
+
+div.gallery {
+  margin: 10px;
+  border: none;
+  float: left;
+  width: 200px;
+  height: 300px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  font-weight: 300;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* a {
+  background-color: #3f525c;
+  border-radius: 2px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  min-width: 70px;
+  margin: .5rem auto;
+  box-sizing: border-box;
+
+   flexbox 
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto; 
+} */
